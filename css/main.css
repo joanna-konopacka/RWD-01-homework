@@ -9,11 +9,16 @@
 @media only screen and (max-width: 500px) {
   .flex-container {
     flex-direction: column;
+    height: auto;
   }
 }
-
-img {
-  padding: 20px;
+.flex-container img {
   width: 20%;
   height: 200px;
+  padding: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .flex-container img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=main.css.map */
